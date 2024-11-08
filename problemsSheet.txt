@@ -1,0 +1,74 @@
+
+Write a C or Python program to implement the below problems.
+Program should be generalized, should run and check for both public and private test cases.
+1]problem
+1. The Caesar cipher is a type of substitution cipher in which each alphabet in the plaintext or message is shifted by a number of places down the alphabet.
+For example, with a shift of 1, P would be replaced by Q, Q would become R, and so on.
+
+To pass an encrypted message from one person to another, it is first necessary that both parties have the ‘Key’ for the cipher, so the sender may encrypt and the receiver may decrypt it.
+
+Key is the number of OFFSET to shift the cipher alphabet. Key can have basic shifts from 1 to 25 positions as there are 26 total alphabets.
+
+As we are designing custom Caesar Cipher in addition to alphabets, we are considering numeric digits from 0 to 9. Digits can also be shifted by key places.
+For Example, if a given plain text contains any digit with values 1 and key = 2, then 3 will replace 1 by (minus sign) will be replaced by (minus sign) - value less than 0 should result into “INVALID INPUT”.
+
+Example:
+Enter your PlainText: All the best
+Enter the Key: 1
+The encrypted Text is: Bmm uif cftu
+
+2] problem<br>
+2. Write a program to print a triangle of prime numbers up to a given number of lines of the triangle.
+
+Example: If number of lines is 3, the triangle will be
+
+2  
+3  5  
+7  11  13
+
+3]problem<br>
+
+The monkey who climbed down does not climb up again after eating until the other Monkeys finish eating.
+
+Monkey can either eat Bananas or Peanuts. If for a Monkey there are less than or equal to Bananas on the ground or less than or equal to Peanuts left on the ground, only that Monkey can eat Bananas (k) along with the Peanuts (j).
+
+Write code to take inputs as n, m, p, k, j and return the number of Monkeys left on the Tree.
+
+Where:
+
+n = Total no. of Monkeys
+
+m = Number of eatable Bananas by Single Monkey (Monkey that jumped down last may eat less than k Bananas)
+
+p = Number of eatable Peanuts by single Monkey (Monkey that jumped down last may eat less than j Peanuts)
+
+k = Total number of Bananas
+
+j = Total number of Peanuts
+
+
+Remember that the Monkeys always eat Bananas and Peanuts, so there is no possibility of m and p being a value zero.
+
+Example:
+
+Input Values:
+
+20
+2
+3
+12
+12
+
+Output Values:
+
+Number of Monkeys left on the Tree: 10
+
+Note: Kindly follow the order of inputs as n, m, p, k, j as given in the above example. And output must include the statement as shown: “Number of Monkeys left on the Tree.”
+
+For any usage purpose: NAIDANDEPA
+
+
+
+
+
+
